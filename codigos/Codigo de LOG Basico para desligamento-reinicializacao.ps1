@@ -1,0 +1,1 @@
+﻿Get-WinEvent -FilterHashtable @{ LogName=”System”; ID = 41, 1074, 6006, 6605, 6008; } | format-list id, LevelDisplayName, TimeCreated, Message
